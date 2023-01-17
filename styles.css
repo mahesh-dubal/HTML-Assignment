@@ -208,7 +208,7 @@ footer {
     font-size: 1.5rem;
 }
 
-/* @media all and (max-width: 500px){
+ @media all and (max-width: 500px){
     .navigation {
         flex-direction: column;
         padding: 2rem 3rem;
@@ -226,7 +226,7 @@ footer {
        align-self: center;
     }
 
-    .quote p{
+    .quote > p{
         padding: 2rem;
         text-align: center;
         font-size: 1.8rem;
@@ -253,9 +253,13 @@ footer {
         justify-content: center;
     }
 
-    .image {
-        flex: 0 1 38%;
-    }
+    
 
 }
- */
+ 
+
+@media all and (max-width: 991px){
+    .navigation{
+    flex-direction: column;
+    }
+}
