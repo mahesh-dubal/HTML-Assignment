@@ -164,6 +164,8 @@ strong{
     width: auto;
     height:12rem;
     border-radius: 7px;
+    justify-content: center;
+    align-items: center;
 }
 
 .left1 {
@@ -171,11 +173,13 @@ strong{
     color: white;
     text-align: initial;
 }
+
 .left1 > h3{
     color: #F9FAF8;
     text-align: initial;
     font-size: 1.5rem;
 }
+
 .right1{
     flex: 20%;
     padding-left: 5rem;
