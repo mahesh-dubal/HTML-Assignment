@@ -235,9 +235,7 @@ footer {
     .call_to_action{
         margin: 5rem auto;
         padding: 2rem;
-        width: calc(100% - 5rem);
-        grid-template-columns: 2fr 1fr;
-        gap: 0 10px;
+
         align-items: center;
     }
 
