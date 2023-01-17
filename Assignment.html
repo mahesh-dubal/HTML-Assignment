@@ -1,82 +1,83 @@
+<!--HTML Assignment-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Assignment</title>
 </head>
-
 <body>
     <header>
-        <a href="#" class="logo">Header Logo</a>
-        <ul class="navigation">
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link one</a></li>
-            <li><a href="#">header link one</a></li>
-        </ul>
+        <nav class="navigation">
+            <h1 class="logo">Header Logo</h1>
+            <ul class="navlist">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="flex-container1">
-        <div class="left">
-            <div class="signup">
-                <h1 class="main-text">This website is<br> awesome</h1>
-                <p>This website has some subtext that goes here under the main title.<br>It's a smaller font and the color is lower contrast</p>
-                <button type="button">Sign up</button>
+    <main>
+        <div class="container">
+            <div class="awesome col1">
+                <h1>This website is awesome</h1>
+                <p class="sec-text">This website has some subtext that goes here under the main title.It's a smaller font and the color is lower contranst.</p>
+                <button type="submit" id="btn">Sign Up</button>
             </div>
-            
+
+            <figure class="col">
+                <img src="./img.png" alt="image placeholder">
+            </figure>
         </div>
 
-        <div class="right">
-                <p class="rectangle">this is a placeholder for an image</p>
-        </div>
-    </div>
-    
-    <h3 class="random-info"><strong>Some randon information.</strong></h3>
-    <div class="flex-container2">
         <div>
-            <img src="/HtmlAssignment/image.jpg">
-            <figcaption class="description">This is some subtext <br> under an illustration<br> or image</figcaption>
+            <h2>Some Random Information</h2>
+            <div class="images">
+                <div class="image">
+                    <img src="./photo__.png">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="image">
+                    <img src="./photo__.png">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="image">
+                    <img src="./photo__.png">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+                <div class="image">
+                    <img src="./photo__.png">
+                    <p>This is some subtext under an illustration or image</p>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="/HtmlAssignment/image.jpg">
-            <figcaption class="description">This is some subtext <br> under an illustration<br> or image</figcaption>
-        </div>
-        <div>
-            <img src="/HtmlAssignment/image.jpg">
-            <figcaption class="description">This is some subtext <br> under an illustration<br> or image</figcaption>
-        </div>
-        <div>
-            <img src="/HtmlAssignment/image.jpg">
-            <figcaption class="description">This is some subtext <br> under an illustration<br> or image</figcaption>
-        </div>
-    </div>
 
-    <div class="flex-container3">
-        <p class="quote" style="font-weight:lighter">This is an inspiring quote, or a testimonial from a<br> customer.Maybe it's just filling up space, or maybe<br> people will actually read it.Who knows? All I know<br> that it looks nice.
-            <strong >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-Thor,God of Thunder</strong></p>
-            
-    </div>
+        <div class="quote">
+            <p>This is an ispiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. All I know is that it's look nice.</p>
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<strong>-Thor,God of Thunder</strong>
+        </div>
 
-    <div class="flex-container4">
-        <div class="rectangle1">
+
+        <div class="call-to-action">
             <div class="left1">
-                <h2>Call to action!It's time!</h2>
+                <h3>Call to action!It's time!</h3>
                 <p>Sign up for our product by clicking that button right over there!</p>
             </div>
-    
+
             <div class="right1">
                 <button type="button" class="btn">Sign up</button>
             </div>
-        </div>  
-    </div>
+        </div>
+
+    </main>
 
     <footer>
         <p>Copyright &#169; The Odin Project 2021</p>
     </footer>
 
-
-    
 </body>
 </html>
